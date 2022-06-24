@@ -1,0 +1,41 @@
+name: flutter_clean_architecture_posts
+description: Posts app clean aarchitecture
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  # bloc state management
+  flutter_bloc: ^8.0.1
+  #functional programming things
+  dartz: ^0.10.1
+  #value equality
+  equatable: ^2.0.3
+  #service locator
+  get_it: ^7.2.0
+  # Remote API
+  internet_connection_checker: ^0.0.1+4
+  http: ^0.13.4
+  #Local cache
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
