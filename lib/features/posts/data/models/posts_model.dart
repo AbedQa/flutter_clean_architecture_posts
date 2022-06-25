@@ -7,7 +7,7 @@ class PostModel extends Post {
     required super.body,
   });
 
-  factory PostModel.fromJson(Map<String, dynamic> json) {
+  factory PostModel.fromJson(Map<dynamic, dynamic> json) {
     return PostModel(id: json['id'], title: json['title'], body: json['body']);
   }
 
